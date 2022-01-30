@@ -1,5 +1,2 @@
-# rock-paper-scissors-no-ui
+# rock-paper-scissors
 PROJECT: ROCK PAPER SCISSORS from theodinproject.com
-
-Reminder:
-Return to rebuild with UI!
