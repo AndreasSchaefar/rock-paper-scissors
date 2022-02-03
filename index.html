@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Rock Paper Scissors</title>
-    <script src="game.js" charset="utf-8"></script>
-    <style media="screen">
-      body {
-        background-color: black;
-      }
-    </style>
-  </head>
-  <body>
-
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <title>Rock Paper Scissors</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" charset="utf-8" defer></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="selections">
+            <button class="selection" type="button" name="rock">✊</button>
+            <button class="selection" type="button" name="paper">✋</button>
+            <button class="selection" type="button" name="scissors">✌️</button>
+         </div>
+         <button class="play" type="button" name="play">Play</button>
+         <div class="results">
+            <p class="state"></p>
+            <p class="scores"></p>
+         </div>
+      </div>
+   </body>
 </html>

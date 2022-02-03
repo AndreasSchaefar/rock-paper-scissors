@@ -1,0 +1,47 @@
+body {
+	background-color: #ccc;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	text-align: center;
+	gap: 16px;
+}
+
+.play {
+	font-size: 1em;
+	border: none;
+	border-radius: 5px;
+	background-color: #3A6CE0;
+	color: white;
+	width: 100px;
+	height: 28px;
+	cursor: pointer;
+}
+
+.play:hover {
+	background-color: #1923E0;
+}
+
+.selections {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+
+.selection {
+	font-size: 3em;
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.mouseover:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 100ms;
+}
