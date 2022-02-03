@@ -68,7 +68,7 @@ function game(e) {
             item.classList.remove("mouseover");
             item.removeEventListener("click", game);
             playButton.textContent = "Play again?";
-            state.remove();
+            state.style.visibility = "hidden";
             container.insertBefore(playButton, results);
         });
     };
